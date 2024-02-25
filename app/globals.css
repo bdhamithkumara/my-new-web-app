@@ -39,3 +39,51 @@
     background-color : rgba(86, 133, 255, 0.05);
   }
 }
+
+
+.toggle {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.toggle-switch {
+  display: inline-block;
+  border-radius: 16px;
+  border: 1px solid #5685FF;
+  width: 58px;
+  height: 32px;
+  position: relative;
+  vertical-align: middle;
+  transition: background 0.25s;
+}
+.toggle-switch:before, .toggle-switch:after {
+  content: "";
+}
+.toggle-switch:before {
+  display: block;
+  background: #003FE6;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: left 0.25s;
+}
+.toggle:hover .toggle-switch:before {
+  background: #003FE6;
+}
+
+.toggle-checkbox:checked + .toggle-switch:before {
+  left: 30px;
+}
+
+.toggle-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+.box-shadow-card {
+  box-shadow: 0 10px 50px 0 rgba(86, 133, 255, 0.15);
+  background-color: #fafafa;
+}
