@@ -33,3 +33,9 @@
 .box-shadow{
   box-shadow: 0 10px 50px 0 rgba(86, 133, 255, 0.15);
 }
+
+@media (min-width:1024px){
+  .lg\:custom-color {
+    background-color : rgba(86, 133, 255, 0.05);
+  }
+}

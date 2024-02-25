@@ -9,7 +9,7 @@ import FooterSection from "./components/footer/page";
 export default function Home() {
   return (
    <>
-   <FeaturesSection/>
+   <BenefitsSection/>
 
    </>
   );
