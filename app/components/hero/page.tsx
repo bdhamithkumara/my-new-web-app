@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 const HeroSection = () => {
     return (
-        <section className='xxl:mx-20 lg:mx-18 mx-auto overflow-hidden mb-96'>
+        <section className='xxl:mx-20 lg:mx-18 mx-auto overflow-hidden'>
             <div className='flex justify-center lg:mt-[120px] mt-[70px] lg:mb-[65px]'>
                 <div className='flex flex-wrap xxl:w-[1260px] xl:w-[1180px] lg:w-[945px]'>
                     <div className='lg:w-[50%] w-[100%] my-auto z-20'>

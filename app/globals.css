@@ -29,3 +29,7 @@
 .background-filter{
   backdrop-filter: blur(20.049999237060547px);
 }
+
+.box-shadow{
+  box-shadow: 0 10px 50px 0 rgba(86, 133, 255, 0.15);
+}
