@@ -9,8 +9,13 @@ import FooterSection from "./components/footer/page";
 export default function Home() {
   return (
    <>
-   <DiscountSection/>
-
+   <NavbarSection/>
+    <HeroSection/>
+    <FeaturesSection/>
+    <BenefitsSection/>
+    <PricingSection/>
+    <DiscountSection/>
+    <FooterSection/>
    </>
   );
 }

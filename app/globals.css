@@ -87,3 +87,10 @@
   box-shadow: 0 10px 50px 0 rgba(86, 133, 255, 0.15);
   background-color: #fafafa;
 }
+
+.hr-line{
+  border : 0;
+  height : 1px;
+  background : #001049;
+  opacity :0.3;
+}
